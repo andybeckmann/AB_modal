@@ -1,0 +1,26 @@
+// Global styles
+@use 'global';
+
+// AB_signup
+@use 'components/AB_signup';
+
+// Demo styles
+body {
+	background: #fff;
+	line-height: 150%;
+}
+
+p {
+	font-size: 20px;
+	line-height: 35px;
+}
+
+h1, h2 {
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+.demo-content {
+	max-width: 1080px;
+	margin: 0 auto;
+}
