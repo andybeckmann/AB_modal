@@ -43,7 +43,7 @@ img {
   height: 100%;
 }
 
-.signup {
+.modal--content {
   position: absolute;
   width: 100%;
   max-width: 960px;
@@ -53,31 +53,31 @@ img {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  .signup {
+  .modal--content {
     display: flex;
     border-radius: 10px;
   }
 }
-.signup .signup--image {
+.modal--content .modal--content-image {
   display: none;
 }
 @media (min-width: 768px) {
-  .signup .signup--image {
+  .modal--content .modal--content-image {
     display: block;
     width: 35%;
     background: #222;
   }
 }
-.signup .signup--content {
+.modal--content .modal--content-main {
   padding: 125px 25px 50px;
 }
 @media (min-width: 768px) {
-  .signup .signup--content {
+  .modal--content .modal--content-main {
     width: 65%;
     padding: 195px 65px 175px;
   }
 }
-.signup .signup--content button {
+.modal--content .modal--content-main button {
   position: absolute;
   height: 45px;
   width: 45px;
@@ -93,20 +93,20 @@ img {
   transform: rotate(45deg);
   font-weight: bold;
 }
-.signup .signup--content h1 {
+.modal--content .modal--content-main h1 {
   font-size: 54px;
   font-family: serif;
 }
-.signup .signup--content p {
+.modal--content .modal--content-main p {
   font-size: 16px;
   line-height: 150%;
 }
 @media (min-width: 768px) {
-  .signup .signup--content p {
+  .modal--content .modal--content-main p {
     font-size: 20px;
   }
 }
-.signup .signup--content .signup--content-form .signup--content-form-email {
+.modal--content .modal--content-main .signup--content-form .signup--content-form-email {
   display: block;
   width: 100%;
   padding: 15px 25px;
@@ -117,7 +117,7 @@ img {
   margin-bottom: 10px;
   outline: none;
 }
-.signup .signup--content .signup--content-form .signup--content-form-submit {
+.modal--content .modal--content-main .signup--content-form .signup--content-form-submit {
   display: block;
   width: 100%;
   padding: 15px 25px;
@@ -130,7 +130,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-.signup .signup--content .signup--content-form p {
+.modal--content .modal--content-main .signup--content-form p {
   font-size: 12px;
 }
 

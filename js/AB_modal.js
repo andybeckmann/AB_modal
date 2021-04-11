@@ -8,7 +8,7 @@ function modal() {
 		closeButton = document.getElementById('modal--close'),
 		expirationDate = new Date();
 
-	if (document.cookie.split('; ').find(row => row.startsWith('popup_close'))) {
+	if (document.cookie.split('; ').find(row => row.startsWith('popup_closed'))) {
 		modalWindow.style.display = 'none';
 	}
 		

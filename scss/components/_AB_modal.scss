@@ -29,7 +29,7 @@
 	height: 100%;
 }
 
-.signup {
+.modal--content {
 	position: absolute;
 	width: 100%;
 	max-width: 960px;
@@ -43,7 +43,7 @@
 		border-radius: 10px;
 	}
 	
-	.signup--image {
+	.modal--content-image {
 		display: none;
 		@media (min-width: 768px) {
 			display: block;
@@ -52,7 +52,7 @@
 		}
 	}
 
-	.signup--content {
+	.modal--content-main {
 		padding: 125px 25px 50px;
 
 		@media (min-width: 768px) {

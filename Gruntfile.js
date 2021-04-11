@@ -40,7 +40,7 @@ module.exports = function(grunt) {
                 eqeqeq: false,
                 esversion: 6,
             },
-            beforeconcat: ['js/AB_signup.js']
+            beforeconcat: ['js/AB_modal.js']
         },
 
         // -- JavaScript concatenation using concat
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         concat: {   
             dist: {
                 src: [
-                    'js/AB_signup.js'
+                    'js/AB_modal.js'
                 ],
                 dest: 'js/build/global.js',
             }

@@ -1,7 +1,7 @@
-AB_signup
+AB_modal
 ==========
 
-AB_signup is an annoying modal component. Don't use it.
+AB_modal is annoying. Don't use it.
 
 ## Screenshot
 ![Screenshot](/screenshot.png?raw=true)
@@ -41,5 +41,5 @@ AB_signup is an annoying modal component. Don't use it.
 
 ### JavaScript
 ```javascript
-modalSignUp();
+modal();
 ```
