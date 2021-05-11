@@ -18,4 +18,11 @@ function modal() {
 		modalWindow.style.display = 'none';
 		setCookie('popup_closed', 'true', expirationDate);
 	});
+
+	window.onkeydown = function (e) {
+		if (e.keyCode == 27) {
+			modalWindow.style.display = 'none';
+			setCookie('popup_closed', 'true', expirationDate);
+		}
+	};
 }
